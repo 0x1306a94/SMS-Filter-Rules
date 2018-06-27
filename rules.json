@@ -1,0 +1,85 @@
+{
+  "enableNumberWhite": true,
+  "enableNumberBlack": true,
+  "enablekeywordsWhite" : false,
+  "enablekeywordsBlack": true,
+  "numberWhiteList" : [
+    {
+      "value" : "^\\d{5}$",
+      "alias" : "不过滤五位数号码",
+      "enable" : true,
+      "type" : "numberWhiteList",
+      "validation" : "regular"
+    }
+  ],
+  "keywordsWhiteList" : [
+
+  ],
+  "numberBlackList" : [
+    {
+      "value" : "18943705413",
+      "alias" : "六合彩",
+      "enable" : true,
+      "type" : "numberBlackList",
+      "validation" : "contain"
+    }
+  ],
+  "keywordsBlackList" : [
+    {
+      "value" : "交通银行",
+      "alias" : "交通银行",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "中国平安",
+      "alias" : "中国平安",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "3码",
+      "alias" : "六合彩",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "^【饿了么】.*元大红包",
+      "alias" : "饿了么大红包",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "regular"
+    },
+    {
+      "value" : "中特",
+      "alias" : "六合彩",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "陌陌科技",
+      "alias" : "陌陌",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "限时特惠福利来袭",
+      "alias" : "腾讯",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "退订",
+      "alias" : "退订",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "regular"
+    }
+  ]
+}
