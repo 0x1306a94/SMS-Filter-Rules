@@ -1,8 +1,5 @@
 {
-  "enableNumberWhite": true,
-  "enableNumberBlack": true,
-  "enablekeywordsWhite" : false,
-  "enablekeywordsBlack": true,
+  "enablekeywordsWhite" : true,
   "numberWhiteList" : [
     {
       "value" : "^\\d{5}$",
@@ -13,8 +10,37 @@
     }
   ],
   "keywordsWhiteList" : [
-
+    {
+      "value" : "校验码",
+      "alias" : "校验码",
+      "enable" : true,
+      "type" : "keywordsWhiteList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "订单",
+      "alias" : "订单",
+      "enable" : true,
+      "type" : "keywordsWhiteList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "验证码",
+      "alias" : "验证码",
+      "enable" : true,
+      "type" : "keywordsWhiteList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "公益短信",
+      "alias" : "公益短信",
+      "enable" : true,
+      "type" : "keywordsWhiteList",
+      "validation" : "contain"
+    }
   ],
+  "enableNumberBlack" : true,
+  "enablekeywordsBlack" : true,
   "numberBlackList" : [
     {
       "value" : "18943705413",
@@ -22,9 +48,52 @@
       "enable" : true,
       "type" : "numberBlackList",
       "validation" : "contain"
+    },
+    {
+      "value" : "‭18068946341‬",
+      "alias" : "微商",
+      "enable" : true,
+      "type" : "numberBlackList",
+      "validation" : "contain"
     }
   ],
+  "enableNumberWhite" : true,
   "keywordsBlackList" : [
+    {
+      "value" : "^【饿了么】.*元大红包",
+      "alias" : "饿了么大红包",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "regular"
+    },
+    {
+      "value" : "退订",
+      "alias" : "退订",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "退订",
+      "alias" : "退订",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "regular"
+    },
+    {
+      "value" : "陌陌科技",
+      "alias" : "陌陌",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "中特",
+      "alias" : "六合彩",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
     {
       "value" : "交通银行",
       "alias" : "交通银行",
@@ -47,27 +116,6 @@
       "validation" : "contain"
     },
     {
-      "value" : "^【饿了么】.*元大红包",
-      "alias" : "饿了么大红包",
-      "enable" : true,
-      "type" : "keywordsBlackList",
-      "validation" : "regular"
-    },
-    {
-      "value" : "中特",
-      "alias" : "六合彩",
-      "enable" : true,
-      "type" : "keywordsBlackList",
-      "validation" : "contain"
-    },
-    {
-      "value" : "陌陌科技",
-      "alias" : "陌陌",
-      "enable" : true,
-      "type" : "keywordsBlackList",
-      "validation" : "contain"
-    },
-    {
       "value" : "限时特惠福利来袭",
       "alias" : "腾讯",
       "enable" : true,
@@ -75,11 +123,53 @@
       "validation" : "contain"
     },
     {
-      "value" : "退订",
-      "alias" : "退订",
+      "value" : "订购",
+      "alias" : "订购",
       "enable" : true,
       "type" : "keywordsBlackList",
-      "validation" : "regular"
+      "validation" : "contain"
+    },
+    {
+      "value" : "脉脉",
+      "alias" : "脉脉",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "福利",
+      "alias" : "福利",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "北京赛车",
+      "alias" : "北京赛车",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "pk",
+      "alias" : "pk",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "pk10",
+      "alias" : "pk10",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
+    },
+    {
+      "value" : "上期",
+      "alias" : "六合彩",
+      "enable" : true,
+      "type" : "keywordsBlackList",
+      "validation" : "contain"
     }
   ]
 }
